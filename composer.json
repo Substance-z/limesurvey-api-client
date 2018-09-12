@@ -1,12 +1,12 @@
 {
-    "name": "Substance-z/limesurvey-api-client",
+    "name": "meritoo/limesurvey-api-client",
     "description": "Client of LimeSurvey API",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Substance",
-            "email": "support@si-s.fr"
+            "name": "Meritoo",
+            "email": "github@meritoo.pl"
         }
     ],
     "require": {
