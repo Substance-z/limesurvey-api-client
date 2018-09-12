@@ -45,6 +45,13 @@ class MethodType extends BaseType
     const EXPORT_STATISTICS = 'export_statistics';
 
     /**
+     * Export responses of a survey to a user
+     *
+     * @var string
+     */
+    const EXPORT_RESPONSES = 'export_responses';
+
+    /**
      * Get settings of a token/participant of a survey
      *
      * @var string

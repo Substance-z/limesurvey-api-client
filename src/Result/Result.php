@@ -57,7 +57,7 @@ class Result
      *                        class constants.
      * @param array  $rawData Raw data returned by the LimeSurvey's API
      */
-    public function __construct($method, array $rawData)
+    public function __construct($method, $rawData)
     {
         $this->method = MethodType::getValidatedMethod($method);
         $this->setRawDataAndStatus($rawData);
@@ -164,7 +164,7 @@ class Result
      *
      * @param array $rawData Raw data returned by the LimeSurvey's API
      */
-    private function setRawDataAndStatus(array $rawData)
+    private function setRawDataAndStatus($rawData)
     {
         /*
          * Status was provided?
